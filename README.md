@@ -35,7 +35,8 @@ Y_mean=np.mean(Y)
 print("Y_mean =",Y_mean)
 num=0
 denum=0
-
+```
+```
 for i in range(len(X)):
   num+=(X[i]-X_mean)*(Y[i]-Y_mean)
   denum+=(X[i]-X_mean)**2
